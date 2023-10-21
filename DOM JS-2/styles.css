@@ -1,0 +1,26 @@
+*{
+    background-color: blueviolet;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #3498db;
+    color: #fff;
+    border: black 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
