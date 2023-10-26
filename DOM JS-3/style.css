@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    color: #333;
+    font-weight: bolder;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #00406b;
+}
