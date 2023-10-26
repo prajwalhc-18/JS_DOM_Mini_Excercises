@@ -1,0 +1,67 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(5, 0, 76);
+
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+}
+
+#increment-btn,#decrement-btn {
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(255, 2, 53);
+    border-radius: 0.4rem;
+    display: inline-block;
+    margin-right: 10px;
+    border: rgb(255, 2, 53);
+}
+
+#increment-btn:hover {
+    color: darkblue;
+    background-color: cornflowerblue;
+}
+
+#decrement-btn:hover {
+    color: darkblue;
+    background-color: cornflowerblue;
+}
+
+#save {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(46, 251, 0);
+    border-radius: 0.4rem;
+    display: inline-block;
+    margin-right: 10px;
+    border: rgb(46, 251, 0);
+}
+
+#save:hover {
+    background-color: rgb(71, 255, 50);
+}
