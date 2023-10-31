@@ -1,0 +1,25 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    color: bisque;
+    font-weight: bolder;
+}
+
+button {
+    padding: 8px;
+    border-radius: 4px;
+    border: red 2px solid;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: burlywood;
+}
