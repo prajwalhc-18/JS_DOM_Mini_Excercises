@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Refer</title>
+  </head>
+  <body>
+    <main>
+      <h2>Refer a friend and you both save!</h2>
+      <p class="about">
+        Share Sleep Doctor with a friend and they will receive a code for $25
+        off their first purchase (minimum $100). If they make a purchase with
+        us, we will send you code for $25 off your next purchase of $100 or
+        more. It's that easy!
+      </p>
+      <form id="referForm">
+        <label for="email">
+          Your Email
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@email.com"
+            required
+          />
+        </label>
+
+        <label for="name">
+          Your Name (optional)
+          <input type="text" id="name" name="name" placeholder="First Last" />
+        </label>
+
+        <p class="terms">
+          By continuing you agree to our Terms and Conditions and Privacy Policy
+        </p>
+        <button type="submit" id="nextButton">Next</button>
+      </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
